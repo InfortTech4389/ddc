@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://didc.global/sitemap.xml
+
+# Crawl-delay for well-behaved bots
+Crawl-delay: 1
+
+# Block common bot traps
+Disallow: /tmp/
+Disallow: /private/
+Disallow: /*.json$
+Disallow: /*.php$

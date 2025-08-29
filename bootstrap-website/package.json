@@ -1,0 +1,38 @@
+{
+  "name": "didc-site-bootstrap",
+  "version": "1.0.0",
+  "description": "Deccan (India) Development Corporation - Corporate Website",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "live-server src --port=3000",
+    "build": "npm run build:css && npm run build:js && npm run build:assets",
+    "build:css": "postcss src/css/main.css -o dist/assets/css/main.min.css --use autoprefixer cssnano",
+    "build:js": "terser src/js/main.js -o dist/assets/js/main.min.js --compress --mangle",
+    "build:assets": "node scripts/build-assets.js",
+    "dev": "npm start",
+    "lighthouse": "lighthouse http://localhost:3000 --output html --output-path ./lighthouse-report.html"
+  },
+  "keywords": [
+    "bootstrap",
+    "corporate",
+    "website",
+    "didc",
+    "ai",
+    "machine-learning",
+    "software-development"
+  ],
+  "author": "DIDC Team",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^5.3.2"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "postcss": "^8.4.32",
+    "postcss-cli": "^11.0.0",
+    "autoprefixer": "^10.4.16",
+    "cssnano": "^6.0.1",
+    "terser": "^5.24.0",
+    "lighthouse": "^11.4.0"
+  }
+}

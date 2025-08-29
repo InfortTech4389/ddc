@@ -1,0 +1,99 @@
+{
+  "services": [
+    {
+      "id": "ai-ml",
+      "title": "AI & Machine Learning",
+      "icon": "🤖",
+      "description": "We build production-grade machine learning — from prediction APIs to vision and NLP — with robust MLOps, monitoring, and ethical AI practices.",
+      "highlights": [
+        "Predictive analytics and forecasting",
+        "Natural language processing",
+        "Computer vision solutions",
+        "Automation at scale"
+      ],
+      "technologies": ["TensorFlow", "PyTorch", "Scikit-learn", "Kubernetes", "MLflow"],
+      "useCases": [
+        "Fraud detection systems",
+        "Recommendation engines",
+        "Chatbots and virtual assistants",
+        "Image recognition and processing"
+      ]
+    },
+    {
+      "id": "software-development",
+      "title": "Software Development",
+      "icon": "💻",
+      "description": "Custom web, mobile, and SaaS applications built with modern frameworks, designed to be secure, scalable, and maintainable for long-term success.",
+      "highlights": [
+        "Web and mobile applications",
+        "SaaS platform development",
+        "API design and integration",
+        "Cloud-native architecture"
+      ],
+      "technologies": ["React", "Node.js", "Python", "Java", "Docker", "AWS"],
+      "useCases": [
+        "E-commerce platforms",
+        "Enterprise web applications",
+        "Mobile apps (iOS/Android)",
+        "Progressive Web Applications"
+      ]
+    },
+    {
+      "id": "it-consulting",
+      "title": "IT Consulting & Strategy",
+      "icon": "🎯",
+      "description": "Strategic technology guidance including cloud migration, system integrations, digital transformation roadmaps, and vendor-neutral recommendations.",
+      "highlights": [
+        "Cloud migration strategies",
+        "Digital transformation",
+        "System integrations",
+        "Technology roadmaps"
+      ],
+      "technologies": ["AWS", "Azure", "GCP", "Terraform", "Ansible"],
+      "useCases": [
+        "Cloud migration projects",
+        "Legacy system modernization",
+        "Technology stack evaluation",
+        "Architecture reviews"
+      ]
+    },
+    {
+      "id": "enterprise-solutions",
+      "title": "Enterprise Solutions",
+      "icon": "🏢",
+      "description": "Comprehensive ERP, CRM, HRMS, and financial management systems enhanced with AI-driven insights for intelligent business operations.",
+      "highlights": [
+        "ERP implementation and customization",
+        "CRM system optimization",
+        "HRMS and workforce management",
+        "Financial systems with AI insights"
+      ],
+      "technologies": ["SAP", "Salesforce", "Microsoft Dynamics", "Oracle", "Custom Solutions"],
+      "useCases": [
+        "Enterprise resource planning",
+        "Customer relationship management",
+        "Human resources management",
+        "Supply chain optimization"
+      ]
+    },
+    {
+      "id": "tech-support",
+      "title": "Technology Support & Outsourcing",
+      "icon": "🛠️",
+      "description": "Managed IT services, SRE/DevOps expertise, and dedicated development teams to ensure your systems run smoothly and efficiently.",
+      "highlights": [
+        "24/7 managed IT services",
+        "DevOps and SRE expertise",
+        "Dedicated development teams",
+        "Infrastructure monitoring"
+      ],
+      "technologies": ["Kubernetes", "Prometheus", "Grafana", "Jenkins", "GitLab CI/CD"],
+      "useCases": [
+        "Infrastructure management",
+        "Application monitoring",
+        "Disaster recovery",
+        "Performance optimization"
+      ]
+    }
+  ]
+}

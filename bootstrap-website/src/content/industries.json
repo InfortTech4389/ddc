@@ -1,0 +1,88 @@
+{
+  "industries": [
+    {
+      "id": "finance",
+      "title": "Finance & Banking",
+      "image": "/assets/images/industries/finance.jpg",
+      "description": "Transforming financial services with AI-powered fraud detection, automated trading systems, and digital banking solutions that enhance security and customer experience.",
+      "solutions": [
+        "Fraud detection and prevention",
+        "Algorithmic trading platforms",
+        "Digital banking applications",
+        "Risk management systems",
+        "Regulatory compliance tools"
+      ],
+      "caseStudies": ["fintech-transformation", "banking-modernization"]
+    },
+    {
+      "id": "healthcare",
+      "title": "Healthcare & Life Sciences",
+      "image": "/assets/images/industries/healthcare.jpg",
+      "description": "Revolutionizing healthcare delivery through telemedicine platforms, electronic health records, medical imaging analysis, and clinical decision support systems.",
+      "solutions": [
+        "Telemedicine platforms",
+        "Electronic Health Records (EHR)",
+        "Medical imaging and diagnostics",
+        "Clinical decision support",
+        "Healthcare analytics"
+      ],
+      "caseStudies": ["hospital-digitization", "medical-ai"]
+    },
+    {
+      "id": "education",
+      "title": "Education & E-Learning",
+      "image": "/assets/images/industries/education.jpg",
+      "description": "Enabling educational institutions with learning management systems, virtual classrooms, student information systems, and AI-powered personalized learning.",
+      "solutions": [
+        "Learning Management Systems",
+        "Virtual classroom platforms",
+        "Student Information Systems",
+        "Personalized learning AI",
+        "Educational content management"
+      ],
+      "caseStudies": ["university-lms", "online-education"]
+    },
+    {
+      "id": "agriculture",
+      "title": "Agriculture & AgriTech",
+      "image": "/assets/images/industries/agriculture.jpg",
+      "description": "Modernizing agriculture with IoT sensors, precision farming solutions, crop monitoring systems, and supply chain management for sustainable farming practices.",
+      "solutions": [
+        "Precision farming systems",
+        "Crop monitoring and analytics",
+        "IoT sensor networks",
+        "Supply chain optimization",
+        "Weather prediction models"
+      ],
+      "caseStudies": ["smart-farming", "agri-supply-chain"]
+    },
+    {
+      "id": "government",
+      "title": "Law & Government",
+      "image": "/assets/images/industries/government.jpg",
+      "description": "Digitizing government services with citizen portals, case management systems, document processing automation, and transparent governance solutions.",
+      "solutions": [
+        "Citizen service portals",
+        "Case management systems",
+        "Document automation",
+        "E-governance platforms",
+        "Compliance monitoring"
+      ],
+      "caseStudies": ["e-governance", "legal-automation"]
+    },
+    {
+      "id": "real-estate",
+      "title": "Construction & Real Estate",
+      "image": "/assets/images/industries/real-estate.jpg",
+      "description": "Streamlining real estate operations with property management systems, virtual tours, construction project management, and smart building solutions.",
+      "solutions": [
+        "Property management platforms",
+        "Virtual reality tours",
+        "Construction project management",
+        "Smart building systems",
+        "Real estate analytics"
+      ],
+      "caseStudies": ["property-management", "smart-buildings"]
+    }
+  ]
+}

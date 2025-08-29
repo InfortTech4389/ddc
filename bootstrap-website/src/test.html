@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Test - DIDC</title>
+    <link rel="stylesheet" href="css/main.css?v=3">
+    <style>
+        /* Test styles */
+        .test-box {
+            background: var(--primary-blue);
+            color: white;
+            padding: 2rem;
+            border-radius: var(--radius-lg);
+            margin: 2rem 0;
+            box-shadow: var(--shadow-lg);
+        }
+        .test-card {
+            background: white;
+            border: 1px solid var(--border-light);
+            border-radius: var(--radius-lg);
+            padding: 2rem;
+            margin: 1rem 0;
+            box-shadow: var(--shadow-sm);
+            transition: var(--transition);
+        }
+        .test-card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-lg);
+        }
+    </style>
+</head>
+<body style="padding: 2rem; background: var(--bg-secondary);">
+    <h1>CSS Test Page</h1>
+    <p>This page tests if the new professional CSS is loading correctly.</p>
+    
+    <div class="test-box">
+        <h2>Professional Blue Box</h2>
+        <p>If you see this in blue (#2563eb) with proper styling, the CSS is working!</p>
+    </div>
+    
+    <div class="test-card">
+        <h3>Test Card</h3>
+        <p>This card should have subtle shadows and hover effects.</p>
+    </div>
+    
+    <div class="test-card">
+        <h3>Another Test Card</h3>
+        <p>Hover over these cards to see the smooth animation effects.</p>
+    </div>
+    
+    <button class="btn btn-primary">Test Button</button>
+    <button class="btn btn-secondary">Secondary Button</button>
+</body>
+</html>

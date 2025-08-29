@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - DIDC</title>
+    <meta name="description" content="Get in touch with DIDC for AI/ML solutions, software development, and IT consulting services. We're here to help transform your business.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+    <!-- Skip to content link for accessibility -->
+    <a href="#main-content" class="skip-to-content">Skip to main content</a>
+    
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="/">DIDC</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="/services.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/services/ai-ml.html">AI & Machine Learning</a></li>
+                            <li><a class="dropdown-item" href="/services/software-development.html">Software Development</a></li>
+                            <li><a class="dropdown-item" href="/services/it-consulting.html">IT Consulting</a></li>
+                            <li><a class="dropdown-item" href="/services/enterprise-solutions.html">Enterprise Solutions</a></li>
+                            <li><a class="dropdown-item" href="/services/tech-support.html">Tech Support</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/products.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/industries.html">Industries</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/case-studies.html">Case Studies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/careers.html">Careers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-primary ms-2" href="/contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main id="main-content">
+        <!-- Header Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto text-center">
+                        <h1>Get in Touch</h1>
+                        <p class="lead">Ready to transform your business with cutting-edge technology? Let's discuss how we can help you achieve your goals.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="contact-form">
+                            <h2 class="mb-4">Send us a Message</h2>
+                            <form id="contactForm" novalidate>
+                                <!-- Honeypot field for spam protection -->
+                                <input type="text" name="website" style="display: none;" tabindex="-1" autocomplete="off">
+                                
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <label for="name" class="form-label">Full Name *</label>
+                                        <input type="text" class="form-control" id="name" name="name" required>
+                                        <div class="invalid-feedback">
+                                            Please provide your name.
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="email" class="form-label">Email Address *</label>
+                                        <input type="email" class="form-control" id="email" name="email" required>
+                                        <div class="invalid-feedback">
+                                            Please provide a valid email address.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <label for="company" class="form-label">Company</label>
+                                        <input type="text" class="form-control" id="company" name="company">
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="phone" class="form-label">Phone Number</label>
+                                        <input type="tel" class="form-control" id="phone" name="phone">
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="subject" class="form-label">Subject</label>
+                                    <select class="form-control" id="subject" name="subject">
+                                        <option value="">Select a topic</option>
+                                        <option value="ai-ml">AI & Machine Learning</option>
+                                        <option value="software-dev">Software Development</option>
+                                        <option value="it-consulting">IT Consulting</option>
+                                        <option value="enterprise">Enterprise Solutions</option>
+                                        <option value="support">Technical Support</option>
+                                        <option value="careers">Career Opportunities</option>
+                                        <option value="partnership">Partnership</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="message" class="form-label">Message *</label>
+                                    <textarea class="form-control" id="message" name="message" rows="6" required placeholder="Tell us about your project or how we can help you..."></textarea>
+                                    <div class="invalid-feedback">
+                                        Please provide a message.
+                                    </div>
+                                </div>
+                                <div class="mb-3 form-check">
+                                    <input type="checkbox" class="form-check-input" id="consent" name="consent" required>
+                                    <label class="form-check-label" for="consent">
+                                        I consent to the processing of my personal data in accordance with DIDC's <a href="/privacy.html" target="_blank">Privacy Policy</a> *
+                                    </label>
+                                    <div class="invalid-feedback">
+                                        You must agree to our privacy policy.
+                                    </div>
+                                </div>
+                                <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="ps-lg-4">
+                            <h3 class="mb-4">Contact Information</h3>
+                            
+                            <div class="mb-4">
+                                <h5>Headquarters</h5>
+                                <address class="mb-0">
+                                    Deccan (India) Development Corporation<br>
+                                    Pune, Maharashtra, India<br>
+                                    <a href="mailto:hello@didc.global">hello@didc.global</a><br>
+                                    <a href="tel:+91XXXXXXXXXX">+91-XXXXXXXXXX</a>
+                                </address>
+                            </div>
+
+                            <div class="mb-4">
+                                <h5>Business Hours</h5>
+                                <p class="mb-0">
+                                    Monday - Friday: 9:00 AM - 6:00 PM IST<br>
+                                    Saturday: 10:00 AM - 2:00 PM IST<br>
+                                    Sunday: Closed
+                                </p>
+                            </div>
+
+                            <div class="mb-4">
+                                <h5>Follow Us</h5>
+                                <div class="d-flex gap-3">
+                                    <a href="https://linkedin.com/company/didc" class="btn btn-ghost" aria-label="LinkedIn">
+                                        LinkedIn
+                                    </a>
+                                    <a href="https://twitter.com/didc_global" class="btn btn-ghost" aria-label="Twitter">
+                                        Twitter
+                                    </a>
+                                    <a href="https://github.com/didc" class="btn btn-ghost" aria-label="GitHub">
+                                        GitHub
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Ready to Start?</h5>
+                                    <p class="card-text">Book a free consultation to discuss your project requirements and see how we can help.</p>
+                                    <a href="mailto:hello@didc.global?subject=Free Consultation Request" class="btn btn-primary">Book Free Consultation</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Map Section (Placeholder) -->
+        <section class="section-alt">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="text-center mb-4">Our Location</h2>
+                        <div class="bg-light rounded p-5 text-center" style="min-height: 300px; display: flex; align-items: center; justify-content: center;">
+                            <div>
+                                <h4>Interactive Map</h4>
+                                <p class="text-muted">Pune, Maharashtra, India</p>
+                                <p class="small">Map integration would be implemented here</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <h5>Deccan (India) Development Corporation</h5>
+                    <p>DIDC is a global technology partner delivering AI/ML solutions, enterprise software, and strategic IT consulting. We turn complex challenges into elegant, scalable systems.</p>
+                    <div class="d-flex gap-3">
+                        <a href="https://linkedin.com/company/didc" class="text-white" aria-label="LinkedIn">
+                            LinkedIn
+                        </a>
+                        <a href="https://twitter.com/didc_global" class="text-white" aria-label="Twitter">
+                            Twitter
+                        </a>
+                        <a href="https://github.com/didc" class="text-white" aria-label="GitHub">
+                            GitHub
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h5>Services</h5>
+                    <ul>
+                        <li><a href="/services/ai-ml.html">AI & Machine Learning</a></li>
+                        <li><a href="/services/software-development.html">Software Development</a></li>
+                        <li><a href="/services/it-consulting.html">IT Consulting</a></li>
+                        <li><a href="/services/enterprise-solutions.html">Enterprise Solutions</a></li>
+                        <li><a href="/services/tech-support.html">Tech Support</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h5>Industries</h5>
+                    <ul>
+                        <li><a href="/industries.html#finance">Finance</a></li>
+                        <li><a href="/industries.html#healthcare">Healthcare</a></li>
+                        <li><a href="/industries.html#education">Education</a></li>
+                        <li><a href="/industries.html#agriculture">Agriculture</a></li>
+                        <li><a href="/industries.html#government">Government</a></li>
+                        <li><a href="/industries.html#real-estate">Real Estate</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h5>Company</h5>
+                    <ul>
+                        <li><a href="/about.html">About Us</a></li>
+                        <li><a href="/case-studies.html">Case Studies</a></li>
+                        <li><a href="/careers.html">Careers</a></li>
+                        <li><a href="/blog.html">Blog</a></li>
+                        <li><a href="/contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h5>Contact</h5>
+                    <address>
+                        Pune, India<br>
+                        <a href="mailto:hello@didc.global">hello@didc.global</a><br>
+                        <a href="tel:+91XXXXXXXXXX">+91-XXXXXXXXXX</a>
+                    </address>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p>&copy; 2024 Deccan (India) Development Corporation. All rights reserved.</p>
+                    </div>
+                    <div class="col-md-6 text-md-end">
+                        <a href="/privacy.html" class="text-decoration-none me-3">Privacy Policy</a>
+                        <a href="/terms.html" class="text-decoration-none">Terms of Service</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/main.js"></script>
+</body>
+</html>

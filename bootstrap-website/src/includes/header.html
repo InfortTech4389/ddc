@@ -1,0 +1,480 @@
+<!-- Professional Header Component -->
+<header>
+    <!-- Skip to content link for accessibility -->
+    <a href="#main-content" class="skip-to-content visually-hidden-focusable">Skip to main content</a>
+    
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+        <div class="container-fluid px-4">
+            <!-- Brand -->
+            <a class="navbar-brand d-flex align-items-center" href="/">
+                <div class="brand-logo-container d-flex align-items-center">
+                    <div class="brand-icon-wrapper me-3">
+                        <svg width="40" height="40" viewBox="0 0 40 40" class="brand-logo">
+                            <rect width="40" height="40" rx="8" fill="#dc2626"/>
+                            <text x="20" y="28" text-anchor="middle" class="brand-text" fill="white" font-family="Inter, sans-serif" font-weight="700" font-size="16">DDC</text>
+                        </svg>
+                    </div>
+                    <div class="brand-text-container">
+                        <div class="brand-name">Deccan Development Corporation</div>
+                        <div class="brand-tagline">Global Software Solutions</div>
+                    </div>
+                </div>
+            </a>
+            
+            <!-- Mobile Toggle -->
+            <button class="navbar-toggler border-0 shadow-none p-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <!-- Navigation Menu -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-5">
+                    <li class="nav-item">
+                        <a class="nav-link active fw-medium px-3 py-2" aria-current="page" href="/">
+                            <i class="fas fa-home me-2 text-danger"></i>
+                            <span>Home</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-medium px-3 py-2" href="/about.html">
+                            <i class="fas fa-building me-2 text-danger"></i>
+                            <span>About</span>
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle fw-medium px-3 py-2" href="/services.html" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fas fa-cogs me-2 text-danger"></i>
+                            <span>Services</span>
+                        </a>
+                        <ul class="dropdown-menu shadow-lg border-0 rounded-4 mt-3 p-3" aria-labelledby="servicesDropdown">
+                            <li class="dropdown-header fw-bold text-uppercase text-muted small mb-2">Core Services</li>
+                            <li>
+                                <a class="dropdown-item rounded-3 py-3 px-3 mb-1" href="/services/ai-ml.html">
+                                    <div class="d-flex align-items-center">
+                                        <div class="service-icon-wrapper me-3">
+                                            <i class="fas fa-brain text-danger fs-5"></i>
+                                        </div>
+                                        <div>
+                                            <div class="fw-semibold text-dark">AI & Machine Learning</div>
+                                            <small class="text-muted">Intelligent automation & analytics</small>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item rounded-3 py-3 px-3 mb-1" href="/services/software-development.html">
+                                    <div class="d-flex align-items-center">
+                                        <div class="service-icon-wrapper me-3">
+                                            <i class="fas fa-code text-danger fs-5"></i>
+                                        </div>
+                                        <div>
+                                            <div class="fw-semibold text-dark">Software Development</div>
+                                            <small class="text-muted">Custom enterprise solutions</small>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item rounded-3 py-3 px-3 mb-1" href="/services/cloud-migration.html">
+                                    <div class="d-flex align-items-center">
+                                        <div class="service-icon-wrapper me-3">
+                                            <i class="fas fa-cloud text-danger fs-5"></i>
+                                        </div>
+                                        <div>
+                                            <div class="fw-semibold text-dark">Cloud Migration</div>
+                                            <small class="text-muted">Seamless cloud transformation</small>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item rounded-3 py-3 px-3 mb-1" href="/services/it-consulting.html">
+                                    <div class="d-flex align-items-center">
+                                        <div class="service-icon-wrapper me-3">
+                                            <i class="fas fa-lightbulb text-danger fs-5"></i>
+                                        </div>
+                                        <div>
+                                            <div class="fw-semibold text-dark">IT Consulting</div>
+                                            <small class="text-muted">Strategic technology guidance</small>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li><hr class="dropdown-divider my-3"></li>
+                            <li>
+                                <a class="dropdown-item rounded-3 py-2 px-3 text-center bg-danger-subtle" href="/services.html">
+                                    <span class="text-danger fw-semibold">View All Services</span>
+                                    <i class="fas fa-arrow-right ms-2 text-danger"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle fw-medium px-3 py-2" href="/industries.html" id="industriesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fas fa-industry me-2 text-danger"></i>
+                            <span>Industries</span>
+                        </a>
+                        <ul class="dropdown-menu shadow-lg border-0 rounded-4 mt-3 p-3" aria-labelledby="industriesDropdown">
+                            <li class="dropdown-header fw-bold text-uppercase text-muted small mb-2">Key Industries</li>
+                            <li>
+                                <a class="dropdown-item rounded-3 py-2 px-3 mb-1" href="/industries/finance.html">
+                                    <i class="fas fa-chart-line text-danger me-3"></i>
+                                    <span class="fw-medium">Financial Services</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item rounded-3 py-2 px-3 mb-1" href="/industries/healthcare.html">
+                                    <i class="fas fa-heartbeat text-danger me-3"></i>
+                                    <span class="fw-medium">Healthcare</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item rounded-3 py-2 px-3 mb-1" href="/industries/education.html">
+                                    <i class="fas fa-graduation-cap text-danger me-3"></i>
+                                    <span class="fw-medium">Education</span>
+                                </a>
+                            </li>
+                            <li><hr class="dropdown-divider my-2"></li>
+                            <li>
+                                <a class="dropdown-item rounded-3 py-2 px-3 text-center bg-danger-subtle" href="/industries.html">
+                                    <span class="text-danger fw-semibold">All Industries</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-medium px-3 py-2" href="/case-studies.html">
+                            <i class="fas fa-trophy me-2 text-danger"></i>
+                            <span>Case Studies</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-medium px-3 py-2" href="/careers.html">
+                            <i class="fas fa-users me-2 text-danger"></i>
+                            <span>Careers</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-medium px-3 py-2" href="/blog.html">
+                            <i class="fas fa-newspaper me-2 text-danger"></i>
+                            <span>Insights</span>
+                        </a>
+                    </li>
+                </ul>
+                
+                <!-- Right side actions -->
+                <div class="d-flex align-items-center">
+                    <a class="nav-link fw-medium px-3 py-2 me-2" href="/contact.html">
+                        <i class="fas fa-envelope me-2 text-danger"></i>
+                        <span>Contact</span>
+                    </a>
+                    <a href="/contact.html" class="btn btn-dark btn-modern px-4 py-2">
+                        <i class="fas fa-rocket me-2"></i>
+                        Get Started
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+                                        <small class="d-block text-muted">Custom applications & platforms</small>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item py-2 px-4 border-bottom" href="/services/it-consulting.html">
+                                    <i class="fas fa-laptop-code text-danger me-3"></i>
+                                    <div>
+                                        <strong>IT Consulting</strong>
+                                        <small class="d-block text-muted">Strategic technology guidance</small>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item py-2 px-4 border-bottom" href="/services/enterprise-solutions.html">
+                                    <i class="fas fa-building text-danger me-3"></i>
+                                    <div>
+                                        <strong>Enterprise Solutions</strong>
+                                        <small class="d-block text-muted">Scalable business systems</small>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item py-2 px-4" href="/services/tech-support.html">
+                                    <i class="fas fa-headset text-danger me-3"></i>
+                                    <div>
+                                        <strong>Tech Support</strong>
+                                        <small class="d-block text-muted">24/7 technical assistance</small>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-semibold px-3 py-2" href="/products.html">
+                            <i class="fas fa-cube me-2"></i>Products
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-semibold px-3 py-2" href="/industries.html">
+                            <i class="fas fa-industry me-2"></i>Industries
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-semibold px-3 py-2" href="/case-studies.html">
+                            <i class="fas fa-chart-line me-2"></i>Case Studies
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-semibold px-3 py-2" href="/careers.html">
+                            <i class="fas fa-briefcase me-2"></i>Careers
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-semibold px-3 py-2" href="/blog.html">
+                            <i class="fas fa-blog me-2"></i>Blog
+                        </a>
+                    </li>
+                </ul>
+                
+                <!-- Action Buttons -->
+                <div class="d-flex align-items-center gap-3">
+                    <a class="btn btn-outline-danger rounded-pill px-4 py-2" href="/contact.html">
+                        <i class="fas fa-phone me-2"></i>Contact Us
+                    </a>
+                    <a class="btn btn-dark rounded-pill px-4 py-2" href="/services.html">
+                        <i class="fas fa-rocket me-2"></i>Get Started
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<!-- Enhanced Header Styles -->
+<style>
+.brand-icon {
+    font-size: 1.5rem;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+.navbar {
+    padding: 1rem 0;
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border-bottom: 1px solid rgba(220, 38, 38, 0.1);
+    transition: all 0.3s ease;
+}
+
+.navbar-scrolled {
+    padding: 0.5rem 0;
+    background-color: rgba(255, 255, 255, 0.98) !important;
+}
+
+.navbar-brand {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #dc2626 !important;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.navbar-brand:hover {
+    transform: scale(1.05);
+}
+
+.navbar-nav .nav-link {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #374151 !important;
+    margin: 0 0.25rem;
+    padding: 0.75rem 1rem !important;
+    border-radius: 0.75rem;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #dc2626 !important;
+    background-color: rgba(220, 38, 38, 0.1);
+    transform: translateY(-2px);
+}
+
+.navbar-nav .nav-link.active {
+    color: #dc2626 !important;
+    background-color: rgba(220, 38, 38, 0.15);
+    font-weight: 600;
+}
+
+.navbar-nav .nav-link i {
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+.dropdown-menu {
+    border: none;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+    padding: 1rem 0;
+    min-width: 300px;
+    animation: fadeInDown 0.3s ease;
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.dropdown-item {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    padding: 1rem 1.5rem;
+    color: #374151;
+    transition: all 0.3s ease;
+    border: none !important;
+}
+
+.dropdown-item:hover {
+    color: #dc2626;
+    background-color: rgba(220, 38, 38, 0.05);
+    transform: translateX(5px);
+}
+
+.dropdown-item i {
+    width: 20px;
+    font-size: 1.1rem;
+}
+
+.dropdown-item small {
+    font-size: 0.8rem;
+    line-height: 1.2;
+}
+
+.btn {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    padding: 0.75rem 1.5rem;
+    border-radius: 2rem;
+    transition: all 0.3s ease;
+    border-width: 2px;
+}
+
+.btn-outline-danger {
+    border-color: #dc2626;
+    color: #dc2626;
+}
+
+.btn-outline-danger:hover {
+    background-color: #dc2626;
+    border-color: #dc2626;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(220, 38, 38, 0.3);
+}
+
+.btn-dark {
+    background-color: #1e293b;
+    border-color: #1e293b;
+}
+
+.btn-dark:hover {
+    background-color: #0f172a;
+    border-color: #0f172a;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(30, 41, 59, 0.4);
+}
+
+.skip-to-content {
+    position: absolute;
+    top: -40px;
+    left: 6px;
+    background: #dc2626;
+    color: white;
+    padding: 8px;
+    text-decoration: none;
+    border-radius: 4px;
+    z-index: 1000;
+    transition: top 0.3s;
+}
+
+.skip-to-content:focus {
+    top: 6px;
+}
+
+/* Mobile responsive adjustments */
+@media (max-width: 991.98px) {
+    .navbar-nav {
+        padding-top: 1rem;
+        background: rgba(255, 255, 255, 0.95);
+        border-radius: 1rem;
+        margin-top: 1rem;
+        padding: 1rem;
+    }
+    
+    .navbar-nav .nav-link {
+        margin: 0.25rem 0;
+        text-align: left;
+        border-radius: 0.5rem;
+    }
+    
+    .d-flex {
+        flex-direction: column;
+        gap: 1rem !important;
+        margin-top: 1rem;
+        padding-top: 1rem;
+        border-top: 1px solid rgba(220, 38, 38, 0.2);
+    }
+    
+    .btn {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .dropdown-menu {
+        background: rgba(248, 249, 250, 0.95);
+        border-radius: 0.75rem;
+        margin-left: 1rem;
+        min-width: auto;
+    }
+}
+
+/* Enhanced animations */
+@media (prefers-reduced-motion: no-preference) {
+    .navbar-nav .nav-link {
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .navbar-nav .nav-link::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(90deg, transparent, rgba(220, 38, 38, 0.1), transparent);
+        transition: left 0.6s;
+    }
+    
+    .navbar-nav .nav-link:hover::before {
+        left: 100%;
+    }
+}
+</style>
+
+<!-- Font Awesome for Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
